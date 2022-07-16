@@ -1,0 +1,7 @@
+{
+	"fqbn": "arduino:avr:uno",
+	"portName": "/dev/ttyACM0",
+	"boardName": "Arduino Uno",
+	"usePROGMEMforConnections": false,
+	"usePROGMEMforOutlets": false
+}

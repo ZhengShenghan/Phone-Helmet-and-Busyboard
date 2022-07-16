@@ -1,0 +1,29 @@
+{
+	"headerFilename": "arobj_dfplayer_mini.hpp",
+	"cppFilename": "arobj_dfplayer_mini.cpp",
+	"funcNameInit": "init_func_dfplayer_mini",
+	"funcNameTrigger": "trigger_func_dfplayer_mini",
+	"structName": "ARObjDfplayerMini",
+	"numOfInlets": "2",
+	"numOfOutlets": "0",
+	"className": "dfplayer_mini",
+	"behaviorType": "normal",
+	"alwaysIncludeInBuild": false,
+	"minArgNum": 2,
+	"maxArgNum": 2,
+	"onlyLeftMostInletIsHot": false,
+	"argTypes": [
+		"i",
+		"i"
+	],
+	"requiredSymbolIDs": [
+		"volume_up",
+		"volume_down",
+		"next",
+		"previous",
+		"pause",
+		"start",
+		"enable_loop",
+		"disable_loop"
+	]
+}

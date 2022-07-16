@@ -1,0 +1,467 @@
+{
+	"instances": [
+		{
+			"instanceName": "loadbang_0",
+			"className": "loadbang",
+			"x": 191,
+			"y": 82,
+			"w": 96,
+			"h": 16,
+			"numOfInlets": 1,
+			"numOfOutlets": 1,
+			"args": [],
+			"valid": true,
+			"boxText": "loadbang"
+		},
+		{
+			"instanceName": "dfplayer_mini_0",
+			"className": "dfplayer_mini",
+			"x": 192,
+			"y": 293,
+			"w": 184,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 0,
+			"args": [
+				{
+					"type": "INT",
+					"value": "10"
+				},
+				{
+					"type": "INT",
+					"value": "11"
+				}
+			],
+			"valid": true,
+			"boxText": "dfplayer_mini 10 11"
+		},
+		{
+			"instanceName": "int_0",
+			"className": "int",
+			"x": 192,
+			"y": 218,
+			"w": 72,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "1"
+				}
+			],
+			"valid": true,
+			"boxText": "int 1"
+		},
+		{
+			"instanceName": "symbol_0",
+			"className": "symbol",
+			"x": 756,
+			"y": 222,
+			"w": 128,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "SYM_ID",
+					"value": "pause"
+				}
+			],
+			"valid": true,
+			"boxText": "symbol pause"
+		},
+		{
+			"instanceName": "delay_0",
+			"className": "delay",
+			"x": 755,
+			"y": 125,
+			"w": 112,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "8000"
+				}
+			],
+			"valid": true,
+			"boxText": "delay 8000"
+		},
+		{
+			"instanceName": "symbol_1",
+			"className": "symbol",
+			"x": 911,
+			"y": 223,
+			"w": 128,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "SYM_ID",
+					"value": "start"
+				}
+			],
+			"valid": true,
+			"boxText": "symbol start"
+		},
+		{
+			"instanceName": "delay_1",
+			"className": "delay",
+			"x": 910,
+			"y": 124,
+			"w": 120,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "10000"
+				}
+			],
+			"valid": true,
+			"boxText": "delay 10000"
+		},
+		{
+			"instanceName": "int_1",
+			"className": "int",
+			"x": 304,
+			"y": 218,
+			"w": 80,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "20"
+				}
+			],
+			"valid": true,
+			"boxText": "int 20"
+		},
+		{
+			"instanceName": "trigger_0",
+			"className": "trigger",
+			"x": 191,
+			"y": 120,
+			"w": 120,
+			"h": 16,
+			"numOfInlets": 1,
+			"numOfOutlets": 2,
+			"args": [
+				{
+					"type": "SYM_ID",
+					"value": "b"
+				},
+				{
+					"type": "SYM_ID",
+					"value": "b"
+				}
+			],
+			"valid": true,
+			"boxText": "trigger b b"
+		},
+		{
+			"instanceName": "delay_2",
+			"className": "delay",
+			"x": 475,
+			"y": 125,
+			"w": 112,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "3000"
+				}
+			],
+			"valid": true,
+			"boxText": "delay 3000"
+		},
+		{
+			"instanceName": "int_2",
+			"className": "int",
+			"x": 476,
+			"y": 220,
+			"w": 80,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "30"
+				}
+			],
+			"valid": true,
+			"boxText": "int 30"
+		},
+		{
+			"instanceName": "int_3",
+			"className": "int",
+			"x": 609,
+			"y": 221,
+			"w": 72,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "2"
+				}
+			],
+			"valid": true,
+			"boxText": "int 2"
+		},
+		{
+			"instanceName": "delay_3",
+			"className": "delay",
+			"x": 608,
+			"y": 125,
+			"w": 112,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "5000"
+				}
+			],
+			"valid": true,
+			"boxText": "delay 5000"
+		}
+	],
+	"connections": [
+		{
+			"src": "symbol_0",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 0
+		},
+		{
+			"src": "int_3",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 0
+		},
+		{
+			"src": "symbol_1",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 0
+		},
+		{
+			"src": "loadbang_0",
+			"outletNo": 0,
+			"dest": "delay_2",
+			"inletNo": 0
+		},
+		{
+			"src": "loadbang_0",
+			"outletNo": 0,
+			"dest": "delay_0",
+			"inletNo": 0
+		},
+		{
+			"src": "loadbang_0",
+			"outletNo": 0,
+			"dest": "trigger_0",
+			"inletNo": 0
+		},
+		{
+			"src": "int_2",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 1
+		},
+		{
+			"src": "trigger_0",
+			"outletNo": 0,
+			"dest": "int_0",
+			"inletNo": 0
+		},
+		{
+			"src": "int_0",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 0
+		},
+		{
+			"src": "loadbang_0",
+			"outletNo": 0,
+			"dest": "delay_1",
+			"inletNo": 0
+		},
+		{
+			"src": "trigger_0",
+			"outletNo": 1,
+			"dest": "int_1",
+			"inletNo": 0
+		},
+		{
+			"src": "delay_2",
+			"outletNo": 0,
+			"dest": "int_2",
+			"inletNo": 0
+		},
+		{
+			"src": "delay_0",
+			"outletNo": 0,
+			"dest": "symbol_0",
+			"inletNo": 0
+		},
+		{
+			"src": "delay_1",
+			"outletNo": 0,
+			"dest": "symbol_1",
+			"inletNo": 0
+		},
+		{
+			"src": "delay_3",
+			"outletNo": 0,
+			"dest": "int_3",
+			"inletNo": 0
+		},
+		{
+			"src": "loadbang_0",
+			"outletNo": 0,
+			"dest": "delay_3",
+			"inletNo": 0
+		},
+		{
+			"src": "int_1",
+			"outletNo": 0,
+			"dest": "dfplayer_mini_0",
+			"inletNo": 1
+		}
+	],
+	"comments": [
+		{
+			"x": 1,
+			"y": 1,
+			"comment": "dfplayer_mini",
+			"fontName": "Courier",
+			"fontSize": 30.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 3,
+			"y": 40,
+			"comment": "The dfplayer_mini object can control DFRobot\u0027s DFPlayer Mini module to play sound files.\nThis object requires the library: DFRobotDFPlayerMini. Install it from the Library Manager.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 492,
+			"y": 331,
+			"comment": "----------------\n    outlets\n----------------\nThe dfplayer_mini has no outlets.\n\n----------------\n   arguments\n----------------\narguments (required) : \n\n  Two documents specified the pin number connected to \n  TX (the first argument) and RX (the second argument).\n  of the DFPlayer Mini module.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 4,
+			"y": 332,
+			"comment": "----------------\n    inlets\n----------------\nleft inlet\n\n  integer: specifiys the song no. to play. The player starts \n           playing the song immediately.\n\n  symbol : The dfplayer_mini object accepts the symbols: pause,\n           start, enable_loop, disable_loop, volume_up, volume_down,\n           previous, and next. Each symbol performs what its name \n           suggest.\n           \n\nright inlet\n\n  integer: specify the volume.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 6,
+			"y": 276,
+			"comment": "The left inlet receives a \nsong number to play or a \ncommand.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 389,
+			"y": 298,
+			"comment": "The right inlet receives the volume (0 - 30).",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 51,
+			"y": 164,
+			"comment": "An integer value at \nthe left inlet is \ninterpreted as a \nsong number to play.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 314,
+			"y": 160,
+			"comment": "An integer value\nat the right inlet\ncontrols the volume.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 484,
+			"y": 184,
+			"comment": "max volume!",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 616,
+			"y": 184,
+			"comment": "play the song no.2.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 771,
+			"y": 184,
+			"comment": "pause fo a while.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		},
+		{
+			"x": 922,
+			"y": 184,
+			"comment": "start playing again.",
+			"fontName": "Courier",
+			"fontSize": 12.0,
+			"r": 0,
+			"g": 0,
+			"b": 0
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"headerFilename": "arobj_tone.hpp",
+	"cppFilename": "arobj_tone.cpp",
+	"funcNameInit": "init_func_tone",
+	"funcNameTrigger": "trigger_func_tone",
+	"structName": "ARObjTone",
+	"numOfInlets": "3",
+	"numOfOutlets": "3",
+	"className": "tone",
+	"behaviorType": "normal",
+	"alwaysIncludeInBuild": false,
+	"minArgNum": 1,
+	"maxArgNum": 3,
+	"onlyLeftMostInletIsHot": true,
+	"argTypes": [
+		"i",
+		"i",
+		"if"
+	]
+}

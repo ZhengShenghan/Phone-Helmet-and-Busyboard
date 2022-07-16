@@ -1,0 +1,92 @@
+{
+	"instances": [
+		{
+			"instanceName": "select_0",
+			"className": "select",
+			"x": 466,
+			"y": 79,
+			"w": 96,
+			"h": 16,
+			"numOfInlets": 2,
+			"numOfOutlets": 2,
+			"args": [
+				{
+					"type": "INT",
+					"value": "0"
+				}
+			],
+			"valid": true,
+			"boxText": "select 0"
+		},
+		{
+			"instanceName": "din_change_0",
+			"className": "din_change",
+			"x": 419,
+			"y": 36,
+			"w": 128,
+			"h": 16,
+			"numOfInlets": 0,
+			"numOfOutlets": 1,
+			"args": [
+				{
+					"type": "INT",
+					"value": "8"
+				}
+			],
+			"valid": true,
+			"boxText": "din_change 8"
+		},
+		{
+			"instanceName": "toggle_0",
+			"className": "toggle",
+			"x": 488,
+			"y": 134,
+			"w": 80,
+			"h": 16,
+			"numOfInlets": 1,
+			"numOfOutlets": 1,
+			"args": [],
+			"valid": true,
+			"boxText": "toggle"
+		},
+		{
+			"instanceName": "dout_0",
+			"className": "dout",
+			"x": 523,
+			"y": 182,
+			"w": 88,
+			"h": 16,
+			"numOfInlets": 1,
+			"numOfOutlets": 0,
+			"args": [
+				{
+					"type": "INT",
+					"value": "13"
+				}
+			],
+			"valid": true,
+			"boxText": "dout 13"
+		}
+	],
+	"connections": [
+		{
+			"src": "toggle_0",
+			"outletNo": 0,
+			"dest": "dout_0",
+			"inletNo": 0
+		},
+		{
+			"src": "select_0",
+			"outletNo": 0,
+			"dest": "toggle_0",
+			"inletNo": 0
+		},
+		{
+			"src": "din_change_0",
+			"outletNo": 0,
+			"dest": "select_0",
+			"inletNo": 0
+		}
+	],
+	"comments": []
+}
